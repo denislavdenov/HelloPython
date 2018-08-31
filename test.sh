@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-out=$(bash hello.py user)
+out=$(bash hello.py)
 
-if [ "$out" == "user" ]; then
+if [ "$out" == "hello" ]; then
 	echo good
 else
 	echo bad
