@@ -1,3 +1,3 @@
 #!/usn/bin/env python
-print $1
+print "Hello"
 exit 0 
