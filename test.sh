@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-out=$(bash hello.py)
+out=$(python hello.py)
 
 if [ "$out" == "hello" ]; then
 	echo good
